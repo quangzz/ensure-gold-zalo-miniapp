@@ -1,0 +1,3 @@
+(function(w,d,i){if(w.ztr){return}var s=d.getElementsByTagName("script")[0];if(!w.ztr){var n=w.ztr=function(act,evt,arg){if(n&&n.callMethod){n.callMethod.apply(act,evt,arg)}else{n.queue.push({action:act,event:evt,arguments:arg})}};n.queue=n.queue||[];var zs=d.createElement("script");zs.src="https://px.dmp.zaloapp.com/ztr.js?id="+i;zs.async=true;s.parentNode.insertBefore(zs,s);w.ztr('init',i);}})(window,document, '3531845443628488724');
+
+ztr('track','PageView');
